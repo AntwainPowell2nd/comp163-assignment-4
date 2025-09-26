@@ -64,3 +64,28 @@ print(f"Your Social Points {social_points}")
 print("Pick your Dificulty to start the game")
 print("Classes: Programing, History, Math, English")
 classdescision = input("What class are you going to study:")
+if classdescision in classes:
+    if classdescision == classes[0]:
+        social_points = social_points - 5
+        current_gpa == current_gpa + 0.2
+    elif classdescision == classes[1]:
+        social_points = social_points - 6
+        current_gpa = current_gpa + 0.4
+    elif classdescision == classes[2]:
+        social_points = social_points - 4
+        current_gpa = current_gpa + 0.5
+    elif classdescision == classes[3]:
+        social_points = social_points - 3
+        current_gpa = current_gpa + 0.25
+elif classdescision not in classes:
+    print("Uh Oh lets try that again.")
+if classdescision == classes[0] or classdescision == classes[1]:
+    print("STEM huh? I like your style")
+elif classdescision == classes[2] or classdescision == classes[3]:
+    print("Core classes huh? Youve got good taste") 
+print("Your Weekly Stats:")
+print(f"Current GPA is {current_gpa}")
+print(f"Your Study Hours {study_hours}")
+print(f"Your Social Hours {social_hours}")
+print(f"Your Stress Level {stress_level}")
+print(f"Your Social Points {social_points}")
