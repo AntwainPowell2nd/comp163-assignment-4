@@ -89,3 +89,30 @@ print(f"Your Study Hours {study_hours}")
 print(f"Your Social Hours {social_hours}")
 print(f"Your Stress Level {stress_level}")
 print(f"Your Social Points {social_points}")
+partys = ["Pizza Palooza,", "Balloon Bash,", "Fish Fry,", "Krazy Koolaid Korall, and", "Stay in"]
+print("Its the Weekend want to party hard?")
+print(f"These are your partys {partys}")
+partydecison = input("Whats the moves twin?")
+if partydecison is partys[0]:
+    social_points = social_points + 10
+    stress_level = stress_level - 8
+elif partydecison is partys[1]:
+    social_points = social_points + 9
+    stress_level = stress_level - 11
+elif partydecison is partys[2]:
+    social_points = social_points + 15
+    stress_level = stress_level - 12
+elif partydecison is partys[3]:
+    social_points = social_points + 16
+    stress_level = stress_level - 5
+elif partydecison is partys[4]:
+    social_points = social_points - 10
+    stress_level = stress_level - 30
+elif partydecison is not partys:
+    print("Try that again friend.")
+print("Your Final Stats:")
+print(f"Current GPA is {current_gpa}")
+print(f"Your Study Hours {study_hours}")
+print(f"Your Social Hours {social_hours}")
+print(f"Your Stress Level {stress_level}")
+print(f"Your Social Points {social_points}")
