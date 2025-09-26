@@ -1,1 +1,6 @@
 # comp163-assignment-4
+# my game is about studying for difernt subjects during the week and then partying on the weekend  and both of those decisons determine you stress levels, gpa, social points.
+# I used if statmens for every deciosn. for the first I used the comparison operators "==", "<", ">" "<=", and ">=" as well as the assighnment operator "=" This helped me assighn variables to different values depending of what mode they choase and what range their gpd fell into.
+#The game rins by entering id leters and word provided above to give your differn statistics the goal is to have a stable gpa by the end of the day and not have high stress levels and a good amount of social points. So players will mix and mathc decisons to achive differt statistics
+#The differnt ending represent how you moght choses to spend the week and what you choose to study and how this can affect your grade and mental health
+#I used AI to help me debugg lines of code specificaly in step 3 because It would not run the way I intended and would return a ValueError to me. I cam to the conclusion with the help of profesor Rhodes that the program in zybooks will not give me an input so the way I wanted ot run my game would not work so I needed to cut that part out.
